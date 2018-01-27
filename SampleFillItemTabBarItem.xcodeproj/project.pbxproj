@@ -15,6 +15,7 @@
 		F7311D52201D1A46002F3B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7311D50201D1A46002F3B32 /* LaunchScreen.storyboard */; };
 		F7311D5D201D1A46002F3B32 /* SampleFillItemTabBarItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7311D5C201D1A46002F3B32 /* SampleFillItemTabBarItemTests.swift */; };
 		F7311D68201D1A46002F3B32 /* SampleFillItemTabBarItemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7311D67201D1A46002F3B32 /* SampleFillItemTabBarItemUITests.swift */; };
+		F7311D76201D1F28002F3B32 /* FillItemTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7311D75201D1F28002F3B32 /* FillItemTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F7311D63201D1A46002F3B32 /* SampleFillItemTabBarItemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleFillItemTabBarItemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7311D67201D1A46002F3B32 /* SampleFillItemTabBarItemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFillItemTabBarItemUITests.swift; sourceTree = "<group>"; };
 		F7311D69201D1A46002F3B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7311D75201D1F28002F3B32 /* FillItemTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillItemTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F7311D4E201D1A46002F3B32 /* Assets.xcassets */,
 				F7311D50201D1A46002F3B32 /* LaunchScreen.storyboard */,
 				F7311D53201D1A46002F3B32 /* Info.plist */,
+				F7311D75201D1F28002F3B32 /* FillItemTabBarController.swift */,
 			);
 			path = SampleFillItemTabBarItem;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				F7311D4A201D1A46002F3B32 /* SecondViewController.swift in Sources */,
 				F7311D46201D1A46002F3B32 /* AppDelegate.swift in Sources */,
 				F7311D48201D1A46002F3B32 /* FirstViewController.swift in Sources */,
+				F7311D76201D1F28002F3B32 /* FillItemTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
