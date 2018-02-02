@@ -24,7 +24,7 @@ class FillItemTabBarController: UITabBarController {
     override var traitCollection: UITraitCollection {
         get {
             if UIDevice.current.userInterfaceIdiom == .pad {
-                return UITraitCollection(horizontalSizeClass: .compact)
+                return UITraitCollection(traitsFrom: [super.traitCollection, UITraitCollection(horizontalSizeClass: .compact)])
             }
             return super.traitCollection
         }
